@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <img class="avatar" src="tugas.jpg">
+        <div class="card__information">
+            <h1 id="name">Apipppppp</h1>
+            <p>jago pess <a href="#">efotball 2025</a></p>
+            <div class="skills">
+                <p>ClubFavorit:</p>
+                <span class="tag">ColoColo </span>
+                <span class="tag">Chelsea</span>
+                <span class="tag">PSG</span>
+            </div>
+            <div class="actions">
+                <a href="#" class="button cta">ByOneDekkzz</a>
+                <a href="#" class="button button--secondary" onclick="learnMore()">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function learnMore() {
+            var name = document.getElementById("name").innerText;
+            alert("Mari belajar bersama " + name + "!");
+        }
+    </script>
+</body>
+</html>
